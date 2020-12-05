@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.ProfileImage {
+    border: ridge 10px blue;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 150px;
+}
+
+#Welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: lightseagreen;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#34eba8 0%, #ba34eb 100%);
+    width: 100%;
+    height: 800px;
+    opacity: 0.85;
+    display: table;
+    z-index: 12;
+}
+
+.WelcomeDiv {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+
+
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+
+}
+
+.line {
+    height: 6px;
+    background-color: mediumvioletred;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 15;
+}
+
+.links {
+    float: left;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-family: 'Damion', cursive;
+    color: crimson;
+}
+
+links:hover {
+    background-color: lightskyblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
